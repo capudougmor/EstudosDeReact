@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+li {
+  list-style: none;
 }
