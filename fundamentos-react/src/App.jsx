@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Primeiro from './components/primeiro'
+import Primeiro2 from './components/basicos/Primeiro'
 import ComParametros from './components/ComParametros'
 import ComFilhos from './components/ComFilhos'
 import Card from './components/layout/card'
@@ -11,6 +12,9 @@ export default props => (
   <div className='App'>
     <Card titulo='Exercicio 1'>
       <Primeiro />
+    </Card>
+    <Card titulo='Exercicio 2'>
+      <Primeiro2 />
     </Card>
     <Card titulo='Exercicio 2'>
       <ComParametros titulo='Componente com parametros'/>       
