@@ -16,10 +16,15 @@ export default props => (
     <Card titulo='Exercicio 2'>
       <Primeiro2 />
     </Card>
-    <Card titulo='Exercicio 2'>
-      <ComParametros titulo='Componente com parametros'/>       
-    </Card>
     <Card titulo='Exercicio 3'>
+      <ComParametros 
+        titulo='Com parametros'
+        subtitulo='Aqui podemos enviar os props'
+        aluno='Douglas'
+        nota={9.5}
+      />       
+    </Card>
+    <Card titulo='Exercicio 4'>
       <ComFilhos>
         <ul>
           <li>Ana</li>
@@ -29,10 +34,10 @@ export default props => (
         </ul>
       </ComFilhos>      
     </Card>
-    <Card titulo='Exercicio 4'>
+    <Card titulo='Exercicio 5'>
       <Repeticao />
     </Card>
-    <Card titulo='Exercicio 5'>
+    <Card titulo='Exercicio 6'>
       <Condicional numero={10} />
     </Card>
 

@@ -3,7 +3,7 @@ import React from 'react';
 // import { Container } from './styles';
 
 function Primeiro2() {
-    const msg = 'Seja bem vindo(a)'
+    const msg = 'Seja bem vindo(a)!'
     return (
         <>
             <div>
