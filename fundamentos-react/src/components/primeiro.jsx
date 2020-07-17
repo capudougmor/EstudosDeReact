@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => 
     <>
-      <h1>Primeiro componente</h1>
-      <h2>Exemplo real</h2>
+      <h2>Primeiro componente</h2>
+      <h3>Exemplo real</h3>
     </>
     

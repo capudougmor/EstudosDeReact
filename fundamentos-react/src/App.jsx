@@ -11,24 +11,36 @@ import Fragmento from './components/Fragmento'
 
 export default props => (
   <div className='App'>
-    <Card titulo='Exercicio 1'>
+    <Card 
+      title='Primeiro componente' 
+      footer='Exercicio 1'
+      color='#001f3f'
+    >
       <Primeiro />
     </Card>
-    <Card titulo='Exercicio 2'>
+    <Card 
+      title='Componente2 com variavel' 
+      footer='Exercicio 2'
+      color='#7FDBFF'
+    >
       <Primeiro2 />
     </Card>
-    <Card titulo='Exercicio 3'>
+    <Card 
+      title='ComParametros' 
+      footer='Exercicio 3'
+      color='#3D9970'
+    >
       <ComParametros 
-        titulo='Com parametros'
+        title='' footer='Com parametros'
         subtitulo='Aqui podemos enviar os props'
         aluno='Douglas'
         nota={9.5}
       />       
     </Card>
-    <Card titulo='Exercicio 4'>
+    <Card title='Fragmento' footer='Exercicio 4' color='#DDDDDD'>
       <Fragmento num1={40} num2={93} />
     </Card>
-    <Card titulo='Exercicio '>
+    <Card title='ComFilhos' footer='Exercicio ' color='#01FF70'>
       <ComFilhos>
         <ul>
           <li>Ana</li>
@@ -38,10 +50,10 @@ export default props => (
         </ul>
       </ComFilhos>      
     </Card>
-    <Card titulo='Exercicio '>
+    <Card title='Repeticao' footer='Exercicio '>
       <Repeticao />
     </Card>
-    <Card titulo='Exercicio '>
+    <Card title='Condicional '>
       <Condicional numero={10} />
     </Card>
 

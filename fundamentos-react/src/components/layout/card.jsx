@@ -1,15 +1,22 @@
 import './card.css'
 import React from 'react'
 
-export default (props) => 
-  <>
-    <div className="card">
-      <div className="conteudo">
-        {props.children}
+export default (props) => {
+  const style = {
+    backgroundColor: props.color || '#fff'
+  }
+
+  return (
+    <>
+      <div className="card" >
+        <div className="title" style={style}>{props.title}</div>
+        <div className="content">
+          {props.children}
+        </div>
+        <div className="footer">
+          {props.footer}
+        </div>
       </div>
-      <div className="footer">
-        {props.titulo}
-      </div>
-    </div>
-  </>
-    
+    </>    
+  )
+}   

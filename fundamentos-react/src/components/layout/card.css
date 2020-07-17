@@ -1,6 +1,5 @@
 .card {
-  background-color: #fff;
-  border: 3px solid #000;
+  border: 3px ;
   border-radius: 10px;
   overflow: hidden;
   margin: 10px;
@@ -11,13 +10,20 @@
   flex: 1;
 }
 
-.card .conteudo {
-  flex: 1;
+.card .title {
+  padding: 5px 0;
   color: #000;
+  font-weight: 700;
+}
+
+.card .content {
+  color: #000;
+  background-color: #fff;
+  flex: 1;
 }
 
 .card .footer {
-  padding: 10px 0;
+  color: #fff;
+  padding: 5px 0;
   background-color: #000;
-  color: white;
 }
