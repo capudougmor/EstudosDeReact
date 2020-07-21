@@ -2,6 +2,7 @@ import React from 'react'
 
 import Primeiro from './components/primeiro'
 import Primeiro2 from './components/basicos/Primeiro'
+import ListaAlunos from './components/repeticao/ListaAlunos'
 import ComParametros from './components/ComParametros'
 import Familia from './components/Familia'
 import FamiliaMembro from './components/FamiliaMembro'
@@ -52,8 +53,8 @@ export default props => (
       </Familia>
     </Card>
 
-    <Card title='Repeticao' footer='Exercicio '>
-      <Repeticao />
+    <Card title='Repeticao' footer='Exercicio ' color='#213F20'>
+      <ListaAlunos />
     </Card>
 
     <Card title='Condicional '>
