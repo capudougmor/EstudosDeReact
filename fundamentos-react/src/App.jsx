@@ -7,7 +7,7 @@ import ComParametros from './components/ComParametros'
 import Familia from './components/Familia'
 import FamiliaMembro from './components/FamiliaMembro'
 import Card from './components/layout/card'
-import Repeticao from './components/Repeticao'
+import ListaProdutos from './components/repeticao/ListaProdutos'
 import Condicional from './components/Condicional'
 import Fragmento from './components/Fragmento'
 
@@ -53,8 +53,12 @@ export default props => (
       </Familia>
     </Card>
 
-    <Card title='Repeticao' footer='Exercicio ' color='#213F20'>
+    <Card title='Repeticao' footer='Exercicio 6' color='#213F20'>
       <ListaAlunos />
+    </Card>
+
+    <Card title='Desafio Repetição' footer='Exercicio 7' color='#FFDC00'>
+      <ListaProdutos />
     </Card>
 
     <Card title='Condicional '>
