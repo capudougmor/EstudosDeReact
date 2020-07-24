@@ -8,8 +8,9 @@ import Familia from './components/Familia'
 import FamiliaMembro from './components/FamiliaMembro'
 import Card from './components/layout/card'
 import ListaProdutos from './components/repeticao/ListaProdutos'
-import Condicional from './components/Condicional'
+import Condicional from './components/condicional/Condicional'
 import Fragmento from './components/Fragmento'
+import IndiretaPai from './components/comunicacao/IndiretaPai'
 
 export default props => (
   <div className='App'>
@@ -61,8 +62,13 @@ export default props => (
       <ListaProdutos />
     </Card>
 
-    <Card title='Condicional '>
-      <Condicional numero={10} />
+    <Card title='Condicional' footer='Exercicio 8' color='#ff2444'>
+      <Condicional numero={11} usuario={{nome: "Cintia"}} />
+      <Condicional numero={10}  />
+    </Card>
+
+    <Card title='Cominicação Indireta' footer='Exercicio 9' color='#F33333'>
+      <IndiretaPai ></IndiretaPai>
     </Card>
 
 
