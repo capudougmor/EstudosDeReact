@@ -11,6 +11,8 @@ import ListaProdutos from './components/repeticao/ListaProdutos'
 import Condicional from './components/condicional/Condicional'
 import Fragmento from './components/Fragmento'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
+import Imput from './components/formulario/imput'
+import Contador from './components/contador/Contador'
 
 export default props => (
   <div className='App'>
@@ -71,6 +73,13 @@ export default props => (
       <IndiretaPai ></IndiretaPai>
     </Card>
 
+    <Card title='Componente controlado' footer='Exercicio 10' color='#F5B041'>
+      <Imput></Imput>
+    </Card>
+
+    <Card title='Contador' footer='Exercicio 11' color='#BDC3C7'>
+      <Contador numeroInicial={2}></Contador>
+    </Card>
 
   </div>
 )

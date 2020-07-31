@@ -4,11 +4,12 @@ import React from 'react'
 export default (props) => {
   const style = {
     backgroundColor: props.color || '#fff'
+
   }
 
   return (
     <>
-      <div className="card" >
+      <div className="card" style={style} >
         <div className="title" style={style}>{props.title}</div>
         <div className="content">
           {props.children}
