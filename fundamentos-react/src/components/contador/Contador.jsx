@@ -19,6 +19,7 @@ export default class Contador extends Component {
       numero: this.state.numero - this.state.passo
     })
   }
+  
 
   auterarPasso = (e) => {
     this.setState({

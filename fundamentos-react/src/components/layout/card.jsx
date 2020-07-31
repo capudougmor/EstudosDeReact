@@ -6,6 +6,7 @@ export default (props) => {
     backgroundColor: props.color || '#fff'
 
   }
+  
 
   return (
     <>

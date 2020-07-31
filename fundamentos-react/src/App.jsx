@@ -80,6 +80,7 @@ export default props => (
     <Card title='Contador' footer='Exercicio 11' color='#BDC3C7'>
       <Contador numeroInicial={2}></Contador>
     </Card>
+    
 
   </div>
 )
