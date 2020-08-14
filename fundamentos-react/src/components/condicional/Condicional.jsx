@@ -9,9 +9,9 @@ export default (props) => {
   return (
     <>
       <div>
-        { isPar ? 
-          <span>Par</span> :
-          <span>Impar</span>
+        { isPar 
+          ? <span>Par</span> 
+          : <span>Impar</span>
         }
       </div>
       <div>

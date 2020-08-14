@@ -13,8 +13,11 @@ export default (props) => {
       <div>
         Filho
       </div>
-      <button onClick={ e => { cb('Joao', gerarIdade(), gerarNerd())}
-      }>Fornecer Informações</button>
+      <button 
+        onClick={ e => { cb('Joao', gerarIdade(), gerarNerd())}}
+        >
+          Fornecer Informações
+        </button>
     </div>
   )
 }

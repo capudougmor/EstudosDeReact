@@ -15,7 +15,7 @@ export default (props) => {
         
     )
   })
-
+ 
   return (
     <>
       <div className='tabelaProdutos'>

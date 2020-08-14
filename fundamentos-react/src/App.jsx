@@ -13,6 +13,7 @@ import Fragmento from './components/Fragmento'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Imput from './components/formulario/imput'
 import Contador from './components/contador/Contador'
+import Megasena from './components/Megasena'
 
 export default props => (
   <div className='App'>
@@ -69,7 +70,7 @@ export default props => (
       <Condicional numero={10}  />
     </Card>
 
-    <Card title='Cominicação Indireta' footer='Exercicio 9' color='#F33333'>
+    <Card title='Comunicação Indireta' footer='Exercicio 9' color='#F33333'>
       <IndiretaPai ></IndiretaPai>
     </Card>
 
@@ -81,6 +82,9 @@ export default props => (
       <Contador numeroInicial={''}></Contador>
     </Card>
 
+    <Card title='Mega-sena' footer='Desafio 02' color='#F4D03F'>
+      <Megasena numeroInicial={''}></Megasena>
+    </Card>
 
   </div>
 )
