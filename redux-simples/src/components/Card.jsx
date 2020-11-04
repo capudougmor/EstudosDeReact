@@ -10,7 +10,7 @@ function getColor(props) {
   return ""
 }
 
-export default function(props) {
+export default function Card(props) {
   return (
     <div className={`Card ${getColor(props)}`}>
       <div className="Header">
