@@ -5,7 +5,7 @@ import Card from './Card'
 
 function Media(props) {
   const {min, max} = props  
-  console.log(props);
+
   return (
     <Card title="Média dos Numeros" green >
       <div >
@@ -22,8 +22,7 @@ function Media(props) {
 function mapStateToProps(state) {
   return{
     min: state.numeros.min,
-    max: state.numeros.max,
-    nome: state.nomes[0]
+    max: state.numeros.max
   }  
 }
 
